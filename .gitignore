@@ -1,0 +1,20 @@
+# Fichiers binaires
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.obj
+*.lib
+*.log
+
+# Fichiers temporaires
+*.tlog
+*.suo
+*.ipch
+*.vs/
+
+# Dossiers de compilation
+x64/
+Debug/
+Release/

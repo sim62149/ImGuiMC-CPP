@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\Debug">
+      <UniqueIdentifier>{1ee319e2-b857-4f59-9aab-28216407e587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Main">
+      <UniqueIdentifier>{7220ba0b-df52-48d3-a852-faec4c4e194b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressources">
+      <UniqueIdentifier>{1f84a1bd-cc44-4315-b8c2-43d8520b9441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressources\ImGui">
+      <UniqueIdentifier>{4a5cc449-8b2a-4fa6-a144-0c4c1fc7e857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressources\ImGui\backends">
+      <UniqueIdentifier>{e25c1ebb-42c8-4b0b-9947-0b447ce2c418}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Console.cpp">
+      <Filter>Fichiers sources\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Fichiers sources\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\imgui.cpp">
+      <Filter>Ressources\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\imgui_demo.cpp">
+      <Filter>Ressources\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\imgui_draw.cpp">
+      <Filter>Ressources\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\imgui_tables.cpp">
+      <Filter>Ressources\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\imgui_widgets.cpp">
+      <Filter>Ressources\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\backends\imgui_impl_opengl2.cpp">
+      <Filter>Ressources\ImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\backends\imgui_impl_win32.cpp">
+      <Filter>Ressources\ImGui\backends</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Console.h">
+      <Filter>Fichiers sources\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\imconfig.h">
+      <Filter>Ressources\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\imgui.h">
+      <Filter>Ressources\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\imgui_internal.h">
+      <Filter>Ressources\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\imstb_rectpack.h">
+      <Filter>Ressources\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\imstb_textedit.h">
+      <Filter>Ressources\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\imstb_truetype.h">
+      <Filter>Ressources\ImGui</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
