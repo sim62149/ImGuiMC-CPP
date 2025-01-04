@@ -1,7 +1,7 @@
 # ImGuiMC-Dll
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+![Rendu](Img.png)
 ## **Description**
 
 **ImGuiMC-Dll** est un projet en **C++** permettant d'afficher une interface utilisateur **ImGui** dans le jeu **Minecraft**, compatible avec les versions allant de **1.0 à 1.16.5**. Ce module injecte un hook dans la fonction `wglSwapBuffers` de **OpenGL** et utilise **ImGui** pour afficher un menu personnalisé dans le jeu.
